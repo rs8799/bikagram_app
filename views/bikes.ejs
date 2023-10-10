@@ -1,0 +1,19 @@
+<%- include('partialscleanerpagebike/headerbike') -%>
+  <div class="container">
+    <div class="row mt-5">
+      <ul class="rowtwo">
+        <% for(var i=0; i<trails.length; i++) {%>
+          <li class="columntwo list-unstyled">
+            <a href="/bikes/<%= trails[i]._id%>">
+              <img  src="<%= trails[i].image%>">
+            </a>
+            
+          </li>
+        <% } %>
+        </ul>
+        <div class="row justify-content-center mt-5">
+          <a class="btn btn-primary" href="/todos">Return to Home</a>
+        </div>  
+    </div>
+  </div>  
+<%- include('footer') -%>

@@ -1,0 +1,26 @@
+<%- include('partialstrails/header copy') -%>
+
+<body>
+<div class="container bgposition">
+  <div class="pushtopdown postbg">
+    <h2 class="colourtext"><%= news.title %></h2>
+    <div class="col-6">
+      
+      <div class="center">
+        <img class="img-fluid" src="<%= news.image%>" />
+      
+      </div>
+      <div >
+        <p class="captiontwo"><%= news.caption %></p>
+      </div>
+    
+    <div >
+     <!--  <a class="btn btn-primary" href="/profile">Return to Profile</a> -->
+      <a class="btn btn-primary bottombuttonnews" href="/todos">Return to Home</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<%- include('footer') -%>

@@ -1,0 +1,117 @@
+ <%- include('partialstrails/header copy') -%>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikagram</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <section class="flex-container">
+    <section class="container">
+      <h1>Bikagram</h1>
+    <ul class="menu bg-base-200 w-56 rounded-box">
+      
+      <form  action="/trailsrate" method="GET"> 
+          <button type="submit">Trails Feed</button> 
+      </form> 
+
+      <form  action="/bikes" method="GET"> 
+          <button  type="submit">Bikes</button> 
+        </form> 
+
+      <form  action="/profile" method="GET"> 
+          <button  type="submit">My Profile</button> 
+        </form>
+
+      <form  action="/addbikespost" method="GET"> 
+          <button  type="submit">Make a Bikes Post</button> 
+        </form> 
+
+      <form  action="/addtrailspost" method="GET"> 
+          <button type="submit">Make a Trails Post</button> 
+        </form> 
+        
+        <a href="/logout">Logout</a>
+      </ul>
+    </section>
+    <section class="newsSection">
+        <section class="news">
+          <h1>News</h1>
+          <section>
+          
+          <div class="box">
+            <a href="#popup-box">
+                Click to Share your pic of the day!
+            </a>
+        </div>
+        <div id="popup-box" class="modal">
+          <div class="content">
+            <h2>Add a post to Trails</h2>
+            <form required = "required" action="/todos" enctype="multipart/form-data" method="POST">
+              <div class="mb-3">
+                  <label for="title" class="form-label">Title</label>
+                  <input type="text" class="form-control" id="title" name="title">
+              </div>
+              <div class="mb-3">
+                <label for="caption" class="form-label">Caption</label>
+                <textarea class="form-control" id="caption" name="caption"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="imgUpload" class="form-label">Image</label>
+                <input type="file" class="form-control" id="imageUpload" name="file">
+              </div>
+              <button type="submit" class="btn btn-primary" value="Upload">Submit</button>
+            </form>
+              <a href="#" class="box-close"></a>
+        </div>
+    </div>
+          </section>
+          
+         <div class='container'>
+            <div class="row mt-5" >
+              <ul class="rowtwo">
+
+                <% for(var i=0; i<news.length; i++) {%>
+                  <li class="col-6 justify-content-between mt-5">
+                    <a href="/todos/<%= news[i]._id%>">
+                      <img class="img-fluid" src="<%= news[i].image%>">
+                    </a>
+                  </li>
+                <% } %>
+                </ul>
+
+                <div class="col-3 mt-5">
+                  <p><%= news.caption %></p>
+                </div>
+              </div>
+          </div> 
+          
+          <!-- start of test code-->
+        
+                <div class="flex 
+                items-center justify-center " >
+                  <a class="btn bg-red-500 text-white" href="/todos">Return to Home</a>
+                </div>  
+            
+          <!-- <ul class="row list-unstyled">
+            <% for(var i=0; i<news.length; i++) {%>
+              <li class="col-6 justify-content-between mt-5">
+                <a href="/todos/<%= news[i]._id%>">
+                  <img class="img-fluid" src="<%= news[i].image%>">
+                </a>
+              </li>
+            <% } %>
+            </ul> -->
+    </section>
+
+  </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<%- include('footer') -%>
