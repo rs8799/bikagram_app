@@ -74,6 +74,6 @@ app.use("/news", newsRoutes);
 
 
 //Server Running
-app.listen(3000, () => {
+app.listen(2121, () => {
   console.log("Server is running, you better catch it!");
 });
