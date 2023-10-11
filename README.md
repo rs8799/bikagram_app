@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/rs8799/bikagram_app">
     <img src="/logobgremovedsignin.png"  width="80" height="80">
   </a>
 
