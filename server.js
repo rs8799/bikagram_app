@@ -77,7 +77,7 @@ app.use("/news", newsRoutes);
 //Server Running
 
 connectDB().then(() => {
-  app.listen(PORT, () => {
+  app.listen(PORT=3000, () => {
       console.log("listening for requests");
   })
 })
