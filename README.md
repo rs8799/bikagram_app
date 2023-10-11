@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/rs8799/bikagram_app/graphs/contributors]
+[![Contributors][https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge]][https://github.com/rs8799/bikagram_app/graphs/contributors]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
