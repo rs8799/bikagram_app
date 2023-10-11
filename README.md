@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/rs8799/bikagram_app">
-    <img src="/logobgremovedsignin.png"  width="80" height="80">
+    <img src="logobgremovedsignin.png"  width="80" height="80">
   </a>
 
 <h3 align="center">Bikagram</h3>
