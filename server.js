@@ -76,13 +76,12 @@ app.use("/news", newsRoutes);
 
 //Server Running
 
-client.connect(err => {
-  if(err){ console.error(err); return false;}
-  // connection to mongo is successful, listen for requests
+connectDB().then(() => {
   app.listen(PORT, () => {
       console.log("listening for requests");
   })
-});
+})
+
 /* app.listen(2121, () => {
   console.log("Server is running, you better catch it!");
 }); */
