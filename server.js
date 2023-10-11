@@ -16,8 +16,6 @@ const createTrailsRoutes = require("./routes/post");
 const commentRoutes = require("./routes/comment");
 const newsRoutes = require("./routes/news");
 
-const PORT = process.env.PORT || 3000
-
 //Use .env file in config folder
 require("dotenv").config({ path: "./config/.env" });
 
@@ -25,15 +23,7 @@ require("dotenv").config({ path: "./config/.env" });
 require("./config/passport")(passport);
 
 //Connect To Database
-const connectDB = async () => {
-  try {
-    const conn = await mongoose.connect(process.env.MONGO_URI);
-    console.log(`MongoDB Connected: ${conn.connection.host}`);
-  } catch (error) {
-    console.log(error);
-    process.exit(1);
-  }
-}
+connectDB();
 
 //Using EJS for views
 app.set("view engine", "ejs");
@@ -84,11 +74,6 @@ app.use("/news", newsRoutes);
 
 
 //Server Running
-connectDB().then(() => {
-  app.listen(PORT, () => {
-      console.log("listening for requests");
-  })
-})
-/* app.listen(3000, () => {
+app.listen(3000, () => {
   console.log("Server is running, you better catch it!");
-}); */
+});
