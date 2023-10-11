@@ -23,8 +23,8 @@ require("dotenv").config({ path: "./config/.env" });
 require("./config/passport")(passport);
 
 //Connect To Database
-/* connectDB();
- */
+connectDB();
+
 //Using EJS for views
 app.set("view engine", "ejs");
 
@@ -73,7 +73,16 @@ app.use("/comment", commentRoutes);
 app.use("/news", newsRoutes);
 
 
+
 //Server Running
-app.listen(2121, () => {
-  console.log("Server is running, you better catch it!");
+
+client.connect(err => {
+  if(err){ console.error(err); return false;}
+  // connection to mongo is successful, listen for requests
+  app.listen(PORT, () => {
+      console.log("listening for requests");
+  })
 });
+/* app.listen(2121, () => {
+  console.log("Server is running, you better catch it!");
+}); */
