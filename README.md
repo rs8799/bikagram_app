@@ -42,11 +42,11 @@
     <a href="https://github.com/rs8799/bikagram_app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_rs8799/bikagram_app">View Demo</a>
+    <a href="https://bikagram.cyclic.app/">View Demo</a>
     ·
-    <a href="https://github.com/github_rs8799/bikagram_app/issues">Report Bug</a>
+    <a href="https://github.com/rs8799/bikagram_app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_rs8799/bikagram_app/issues">Request Feature</a>
+    <a href="https://github.com/rs8799/bikagram_app/issues">Request Feature</a>
   </p>
 </div>
 
