@@ -195,7 +195,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@raylsanford](https://twitter.com/raylsanford) - raylsanford@gmail.com
 
 Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799/bikagram_app)
 
@@ -227,7 +227,7 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [license-shield]: https://img.shields.io/github/license/rs8799/bikagram_app.svg?style=for-the-badge
 [license-url]: https://github.com/rs8799/bikagram_app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/ray-sanford
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
