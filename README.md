@@ -93,7 +93,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Express][Express]][Express-url]
+* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -229,10 +229,8 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ray-sanford
 [product-screenshot]: images/screenshot.png
-[Express]: https://img.shields.io/github/downloads/rs8799/bikagram_app/total?logo=Express&label=Express
-
-
-[Express-url]: https://expressjs.com/
+[Next.js]: https://img.shields.io/github/downloads/rs8799/bikagram_app/total?logo=Express&label=Express
+[Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
