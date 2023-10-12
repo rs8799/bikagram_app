@@ -18,13 +18,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge]][https://github.com/rs8799/bikagram_app/graphs/contributors]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+ -->
 
 
 <!-- PROJECT LOGO -->
@@ -39,7 +39,7 @@
   <p align="center">
     A full stack web app where users can log in to view photos posted by other bike users. Users have the ability to post new photos or bikes or trails. They can like and comment on their favourite photos. 
     <br />
-    <a href="https://github.com/github_rs8799/bikagram_app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rs8799/bikagram_app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_rs8799/bikagram_app">View Demo</a>
