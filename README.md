@@ -230,10 +230,10 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [linkedin-url]: https://linkedin.com/in/ray-sanford
 [product-screenshot]: images/screenshot.png
 
-[Express]: https://img.shields.io/badge/-Express-%23000000?style=for-the-badge?logo=Express&logoColor=white
+[Express]: https://img.shields.io/badge/-Express-%23000000?style=for-the-badge&logo=Express&logoColor=white
 [Express-url]: https://expressjs.com/
 
-[Node.js]: https://img.shields.io/badge/-Node.js-%23339933?style=for-the-badge?logo=Node.js&logoColor=white
+[Node.js]: https://img.shields.io/badge/-Node.js-%23339933?style=for-the-badge&logo=Node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
 
 [Bootstrap]: https://img.shields.io/badge/-Bootstrap-%237952B3?style=for-the-badge&logo=Bootstrap&logoColor=white
