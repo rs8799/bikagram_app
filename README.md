@@ -97,7 +97,7 @@
 * [![Node][Node.js]][Node-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![MongoDB][MongoDB]][MongoDB-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Mongoose][Mongoose]][Mongoose-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
@@ -242,8 +242,10 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [MongoDB]: https://img.shields.io/badge/-MongoDB-%2347A248?style=for-the-badge&logo=MongoDB&logoColor=white
 [MongoDB-url]: https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=controlhterms&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core-high-int_prosp-brand_gic-null_amers-ca_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=19616985274&adgroup=146373896140&cq_cmp=19616985274&gad=1&gclid=EAIaIQobChMI8dWZze3xgQMVokRHAR2eLAhuEAAYASAAEgLm9fD_BwE
 
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
+[Mongoose]: https://img.shields.io/badge/-Mongoose-%23880000?style=for-the-badge&logo=Mongoose&logoColor=white
+
+[Mongoose-url]: https://mongoosejs.com/
+
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
