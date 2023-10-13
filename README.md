@@ -99,7 +99,7 @@
 * [![MongoDB][MongoDB]][MongoDB-url]
 * [![Mongoose][Mongoose]][Mongoose-url]
 * [![DaisyUI][DaisyUI]][DaisyUI-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![PostCSS][PostCSS]][PostCSS-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -246,10 +246,10 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [Mongoose-url]: https://mongoosejs.com/
 
 [DaisyUI]: https://img.shields.io/badge/-DaisyUI-%235A0EF8?style=for-the-badge&logo=DaisyUI&logoColor=white
-
 [DaisyUI-url]: https://daisyui.com/
 
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
+[PostCSS]: https://img.shields.io/badge/-PostCSS-%23DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white
+[PostCSS-url]: https://postcss.org/
+
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
