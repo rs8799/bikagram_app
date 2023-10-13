@@ -230,17 +230,17 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [linkedin-url]: https://linkedin.com/in/ray-sanford
 [product-screenshot]: images/screenshot.png
 
-[Express]: https://img.shields.io/badge/-Express-%23000000?logo=Express
+[Express]: https://img.shields.io/badge/-Express-%23000000?style=for-the-badge?logo=Express&logoColor=white
 [Express-url]: https://expressjs.com/
 
-[Node.js]: https://img.shields.io/badge/-Node.js-%23339933?logo=Node.js&logoColor=white
+[Node.js]: https://img.shields.io/badge/-Node.js-%23339933?style=for-the-badge?logo=Node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
 
 [Bootstrap]: https://img.shields.io/badge/-Bootstrap-%237952B3?style=for-the-badge&logo=Bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com/
 
 [MongoDB]: https://img.shields.io/badge/-MongoDB-%2347A248?style=for-the-badge&logo=MongoDB&logoColor=white
-[MongoDB]: https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=controlhterms&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core-high-int_prosp-brand_gic-null_amers-ca_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=19616985274&adgroup=146373896140&cq_cmp=19616985274&gad=1&gclid=EAIaIQobChMI8dWZze3xgQMVokRHAR2eLAhuEAAYASAAEgLm9fD_BwE
+[MongoDB-url]: https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=controlhterms&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core-high-int_prosp-brand_gic-null_amers-ca_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=19616985274&adgroup=146373896140&cq_cmp=19616985274&gad=1&gclid=EAIaIQobChMI8dWZze3xgQMVokRHAR2eLAhuEAAYASAAEgLm9fD_BwE
 
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
