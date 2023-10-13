@@ -94,7 +94,7 @@
 ### Built With
 
 * [![Express][Express]][Express-url]
-* [![React][React.js]][React-url]
+* [![Node][Node.js]][Node-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
@@ -230,12 +230,12 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [linkedin-url]: https://linkedin.com/in/ray-sanford
 [product-screenshot]: images/screenshot.png
 
-[Express]: https://img.shields.io/badge/-Express-%23000000?logo=Express&logoColor=%23000000
-
+[Express]: https://img.shields.io/badge/-Express-%23000000?logo=Express
 [Express-url]: https://expressjs.com/
 
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[Node.js]: https://img.shields.io/badge/-Node.js-%23339933?logo=Node.js&logoColor=white
+[Node-url]: https://nodejs.org/en
+
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
