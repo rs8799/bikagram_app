@@ -95,7 +95,7 @@
 
 * [![Express][Express]][Express-url]
 * [![Node][Node.js]][Node-url]
-* [![Vue][Vue.js]][Vue-url]
+* [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
@@ -236,10 +236,12 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [Node.js]: https://img.shields.io/badge/-Node.js-%23339933?logo=Node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
 
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
+[Bootstrap]: https://img.shields.io/badge/-Bootstrap-%237952B3?style=for-the-badge&logo=Bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com/
+
+[MongoDB]: https://img.shields.io/badge/-MongoDB-%2347A248?style=for-the-badge&logo=MongoDB&logoColor=white
+[MongoDB]: https://www.mongodb.com/cloud/atlas/lp/try4?utm_content=controlhterms&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core-high-int_prosp-brand_gic-null_amers-ca_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=19616985274&adgroup=146373896140&cq_cmp=19616985274&gad=1&gclid=EAIaIQobChMI8dWZze3xgQMVokRHAR2eLAhuEAAYASAAEgLm9fD_BwE
+
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
