@@ -100,7 +100,7 @@
 * [![Mongoose][Mongoose]][Mongoose-url]
 * [![DaisyUI][DaisyUI]][DaisyUI-url]
 * [![PostCSS][PostCSS]][PostCSS-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Tailwind][Tailwind]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,5 +251,5 @@ Project Link: [https://github.com/rs8799/bikagram_app](https://github.com/rs8799
 [PostCSS]: https://img.shields.io/badge/-PostCSS-%23DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white
 [PostCSS-url]: https://postcss.org/
 
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Tailwind]: https://img.shields.io/badge/-Tailwind%20_CSS-%2306B6D4?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/ 
