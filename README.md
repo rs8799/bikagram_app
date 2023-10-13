@@ -96,7 +96,7 @@
 * [![Express][Express]][Express-url]
 * [![Node][Node.js]][Node-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
-* [![Angular][Angular.io]][Angular-url]
+* [![MongoDB][MongoDB]][MongoDB-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
