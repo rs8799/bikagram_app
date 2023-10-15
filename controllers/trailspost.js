@@ -11,6 +11,45 @@ module.exports = {
       console.log(err);
     }
   },
+  createBikesPost: async (req, res) => {
+    try {
+
+      // Upload image to cloudinary
+      const result = await cloudinary.uploader.upload(req.file.path);
+
+
+      await Trails.create({
+        title: req.body.title,
+        image: result.secure_url,
+        cloudinaryId: result.public_id,
+        caption: req.body.caption,
+        likes: 0,
+        user: req.user.id,
+      });
+      console.log("Post has been added!");
+       res.redirect("/bikes"); 
+
+     /*   res.render('bikes', {trails: trails,left: 0 })  */
+  
+    } catch (err) {
+      console.log(err);
+    }
+  },
+  likePostBikes: async (req, res) => {
+    try {
+      
+      await Trails.findOneAndUpdate(
+        { _id: req.params.id},
+        {
+          $inc: { likes: 1 },
+        }
+      );
+      console.log("Likes +1");
+      res.redirect(`/bikes/${req.params.id}`);
+    } catch (err) {
+      console.log(err);
+    }
+  },
   getFeed: async (req, res) => {
     try {
       const posts = await Post.find().sort({ createdAt: "desc" }).lean();
@@ -27,30 +66,10 @@ module.exports = {
       console.log(err);
     }
   },
-  createBikesPost: async (req, res) => {
+  
+ /*  createTrailsPost: async (req, res) => {
     try {
-      // Upload image to cloudinary
-      const result = await cloudinary.uploader.upload(req.file.path);
 
-      await Trails.create({
-        title: req.body.title,
-        image: result.secure_url,
-        cloudinaryId: result.public_id,
-        caption: req.body.caption,
-        likes: 0,
-        user: req.user.id,
-      });
-      console.log("Post has been added!");
-      res.redirect("/bikes");
-
-     /*  res.render('bikes', {trails: trails,left: 0 }) 
-  */
-    } catch (err) {
-      console.log(err);
-    }
-  },
-  createTrailsPost: async (req, res) => {
-    try {
       // Upload image to cloudinary
       const result = await cloudinary.uploader.upload(req.file.path);
 
@@ -67,10 +86,10 @@ module.exports = {
 
      /*  res.render('cleanerhomepage', {posts: posts,posts: 0 })  */
  
-    } catch (err) {
+    /* } catch (err) {
       console.log(err);
     }
-  },
+  },  */
   likePost: async (req, res) => {
     try {
       await Post.findOneAndUpdate(

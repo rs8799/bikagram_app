@@ -12,7 +12,7 @@ const mainRoutes = require("./routes/main");
 const postRoutes = require("./routes/trails");
 const postBikesRoutes = require("./routes/postbikes");
 const createPostRoutes = require("./routes/post");
-const createTrailsRoutes = require("./routes/post");
+const createBikesRoutes = require("./routes/post");
 const commentRoutes = require("./routes/comment");
 const newsRoutes = require("./routes/news");
 
@@ -67,13 +67,13 @@ app.use("/todos", createPostRoutes);
 app.use("/trailsrate", postRoutes);
 app.use("/bikes", postBikesRoutes);
 app.use("/profile", createPostRoutes)
-app.use("/addbikespost", createTrailsRoutes)
-app.use("/addtrailspost", createTrailsRoutes)
+app.use("/addbikespost", createBikesRoutes);
+/* app.use("/addtrailspost", createTrailsRoutes)*/
 app.use("/comment", commentRoutes);
 app.use("/news", newsRoutes);
 
 
 //Server Running
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server is running, you better catch it!");
 });
