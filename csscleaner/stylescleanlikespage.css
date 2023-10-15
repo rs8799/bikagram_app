@@ -3049,9 +3049,9 @@ textarea.form-control-lg {
             float: right;
             margin: 10px;
 }
-.heart{
-  width: 15% !important;
-}
+/* .heart{
+  width: 20% !important;
+} */
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #0085A1;
