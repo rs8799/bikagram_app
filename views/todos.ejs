@@ -51,7 +51,7 @@
         <div id="popup-box" class="modal">
           <div class="content">
             <h2>Add a post to Trails</h2>
-            <form required = "required" action="/todos" enctype="multipart/form-data" method="POST">
+            <form required = "required" action="/home" enctype="multipart/form-data" method="POST">
               <div class="mb-3">
                   <label for="title" class="form-label">Title</label>
                   <input type="text" class="form-control" id="title" name="title">
@@ -77,7 +77,7 @@
 
                 <% for(var i=0; i<news.length; i++) {%>
                   <li class="col-6 justify-content-between mt-5">
-                    <a href="/todos/<%= news[i]._id%>">
+                    <a href="/home/<%= news[i]._id%>">
                       <img class="img-fluid" src="<%= news[i].image%>">
                     </a>
                   </li>
@@ -94,7 +94,7 @@
         
                 <div class="flex 
                 items-center justify-center " >
-                  <a class="btn bg-red-500 text-white" href="/todos">Return to Home</a>
+                  <a class="btn bg-red-500 text-white" href="/home">Return to Home</a>
                 </div>  
             
           <!-- <ul class="row list-unstyled">
