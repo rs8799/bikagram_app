@@ -64,7 +64,7 @@ app.use(flash());
 
 //Setup Routes For Which The Server Is Listening
 app.use("/", mainRoutes);
-app.use("/todos", createPostRoutes);
+app.use("/home", createPostRoutes);
 app.use("/trailsrate", postRoutes);
 app.use("/bikes", postBikesRoutes);
 app.use("/profile", createPostRoutes)
