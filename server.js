@@ -13,6 +13,7 @@ const postRoutes = require("./routes/trails");
 const postBikesRoutes = require("./routes/postbikes");
 const createPostRoutes = require("./routes/post");
 const createBikesRoutes = require("./routes/post");
+const createTrailsRoutes = require("./routes/post");
 const commentRoutes = require("./routes/comment");
 const newsRoutes = require("./routes/news");
 
@@ -68,7 +69,7 @@ app.use("/trailsrate", postRoutes);
 app.use("/bikes", postBikesRoutes);
 app.use("/profile", createPostRoutes)
 app.use("/addbikespost", createBikesRoutes);
-/* app.use("/addtrailspost", createTrailsRoutes) */
+app.use("/addtrailspost", createTrailsRoutes) 
 app.use("/comment", commentRoutes);
 app.use("/news", newsRoutes);
 

@@ -67,7 +67,7 @@ module.exports = {
     }
   },
   
- /*  createTrailsPost: async (req, res) => {
+ createTrailsPost: async (req, res) => {
     try {
 
       // Upload image to cloudinary
@@ -86,10 +86,10 @@ module.exports = {
 
      /*  res.render('cleanerhomepage', {posts: posts,posts: 0 })  */
  
-    /* } catch (err) {
+     } catch (err) {
       console.log(err);
     }
-  },  */
+  },  
   likePost: async (req, res) => {
     try {
       await Post.findOneAndUpdate(
