@@ -126,7 +126,7 @@ getPost: async (req, res) => {
           user: req.user.id,
         });
         console.log("Post has been added!");
-         res.redirect("/todos");
+         res.redirect("/home");
  
 /*          res.render('cleanerhomepage') 
  */    

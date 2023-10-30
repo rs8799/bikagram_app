@@ -10,7 +10,7 @@ module.exports = {
               createdById: req.user.id
           });
       console.log("News has been added!");
-      res.redirect(`/todos`);
+      res.redirect(`/home`);
       } catch (err) {
           console.log(err);
       }
