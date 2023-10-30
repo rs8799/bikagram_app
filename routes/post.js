@@ -8,9 +8,9 @@ const trailsPostController = require("../controllers/trailspost");
 const upload = require("../middleware/multer");
 const { ensureAuth } = require('../middleware/auth')
 
-/* router.get('/:id', ensureAuth, todosController.getNewsCommentsAndLikes) 
+router.get('/:id', ensureAuth, todosController.getNewsCommentsAndLikes) 
 
-*/
+
 router.post("/createbikespost", upload.single("file"), bikesPostController.createBikesPost);
 /* 
 router.post("/createtrailspost", upload.single("file"), trailsPostController.createTrailsPost);
