@@ -68,7 +68,7 @@ app.use("/trailsrate", postRoutes);
 app.use("/bikes", postBikesRoutes);
 app.use("/profile", createPostRoutes)
 app.use("/addbikespost", createBikesRoutes);
-app.use("/addtrailspost", createTrailsRoutes)
+/* app.use("/addtrailspost", createTrailsRoutes) */
 app.use("/comment", commentRoutes);
 app.use("/news", newsRoutes);
 
