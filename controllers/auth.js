@@ -20,7 +20,7 @@ exports.postLogin = (req, res, next) => {
 
   if (validationErrors.length) {
     req.flash("errors", validationErrors);
-    return res.redirect("/todos");
+    return res.redirect("/home");
   }
   /* req.body.email = validator.normalizeEmail(req.body.email, {
     gmail_remove_dots: false,
