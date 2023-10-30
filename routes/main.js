@@ -9,9 +9,9 @@ const { ensureAuth, ensureGuest } = require('../middleware/auth')
 router.get('/', homeController.getIndex)
 
 
-router.get('/todos', ensureAuth, mainPageController.getNews) 
+router.get('/home', ensureAuth, mainPageController.getNews) 
 
-router.post('/todos', ensureAuth, upload.single("file"),mainPageController.postNews) 
+router.post('/home', ensureAuth, upload.single("file"),mainPageController.postNews) 
 
 
 router.get('/bikes', mainPageController.getBikes)
