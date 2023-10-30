@@ -12,9 +12,9 @@ router.get('/:id', ensureAuth, todosController.getNewsCommentsAndLikes)
 
 
 router.post("/createbikespost", upload.single("file"), bikesPostController.createBikesPost);
-/* 
+ 
 router.post("/createtrailspost", upload.single("file"), trailsPostController.createTrailsPost);
-
+/*
 router.put("/likePost/:id", postsController.likePost)
 
 router.delete("/deletePost/:id", postsController.deletePost);
